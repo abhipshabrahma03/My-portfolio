@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | [Your Name]</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">ABHIPSHA BRAHMA</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="SUMMARY">
+    <h1>Hey!! I'm Abhipsha Brahma</h1>
+    <p>A passionate Web Developer,Coder,Designer</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Driven by a passion for coding, with a solid foundation in Java and Python. Currently
+        pursuing a B.Tech in Computer Science Engineering, specialize in web development,
+        crafting dynamic, use friendly solutions, and constantly pushing the boundaries of
+        innovation.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="filter-buttons">
+      <button onclick="filterProjects('all')">All</button>
+      <button onclick="filterProjects('web')">Web</button>
+      <button onclick="filterProjects('app')">App</button>
+    </div>
+    <div class="projects-container">
+      <div class="project-card" data-type="web">
+        <h3>Website Portfolio</h3>
+        <p>Built with HTML, CSS, JS</p>
+      </div>
+      <div class="project-card" data-type="app">
+        <h3>ATTENDANCE MANAGEMENT SYSTEM</h3>
+        <p> Attendance Manager
+           Project Focus: Attendance Tracking System
+            Other Information: Developed a robust system for managing attendance in educational
+            institutions using front-end and back-end tools.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Responsive Design</span>
+      <span>JAVA</span>
+      <span> Python</span>
+      <span>DSA using JAVA</span>
+      <span> node.js</span>
+      <span>My SQL</span>
+      <span>C PROGRAMMING</span>
+      <span>c++</span>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Abhipsha Brahma</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
